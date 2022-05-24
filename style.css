@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;    
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+canvas {
+    display: block;
+}
+
+a.button{
+    display: block;
+    margin-top: 2rem;
+    padding: 0.5rem  1rem;
+    width: max-content;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    text-decoration: none;
+
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+a.button:active{
+    transform: translate(3px,3px);
+    box-shadow: none;
+}
